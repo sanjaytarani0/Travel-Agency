@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Google Sign in -->
+    <meta name="google-signin-client_id" content="599819292215-rsur41djunq45e6oicbheod3kkkdu7h0.apps.googleusercontent.com">
     <!-- Import Google Icon Font -->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -43,6 +45,10 @@
               <li><a href="#popular">Popular Places</a></li>
               <li><a href="#gallery">Gallery</a></li>
               <li><a href="#contact">Contact</a></li>
+              <li><div class="g-signin2" style="line-height: 1.5; position: relative;
+                top: 15px;" data-onsuccess="onSignIn"></div>
+                <li><a href="index.html" class=" btn-large waves-effect waves-light red signOut" onclick="signOut();">Logout</a></li>
+                
             </ul>
           </div>
         </div>
@@ -54,6 +60,8 @@
       <li><a href="#popular">Popular Places</a></li>
       <li><a href="#gallery">Gallery</a></li>
       <li><a href="#contact">Contact</a></li>
+      <li><div class="g-signin2" style="line-height: 1.5; position: relative;
+        top: 15px;" data-onsuccess="onSignIn"></div></li>
     </ul>
 
     <!-- Section : Slider -->
@@ -368,7 +376,7 @@
             </ul>
           </div>
           <div class="col s12 m6">
-            <div class="card-panel grey lighten-3">
+            <!-- <div class="card-panel grey lighten-3">
               <h5>Please Fill out the form</h5>
               <div class="input-field">
                 <input type="text" placeholder="Name" id="name" />
@@ -391,7 +399,8 @@
                 <label for="message">Message</label>
               </div>
               <input type="submit" value="submit" class="btn" />
-            </div>
+            </div> -->
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLqhe_B7wIzeVje4OsFezfRWAWKK8T197lrjjyeKilcyG5GA/viewform?embedded=true" width="640" height="650" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
           </div>
         </div>
       </div>
@@ -407,7 +416,9 @@
     <script
       type="text/javascript"
       src="https://code.jquery.com/jquery-3.2.1.min.js"
+
     ></script>
+    <script type="text/javascript" src="script.js">  </script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script>
       $(document).ready(function() {
@@ -435,5 +446,6 @@
         $('.scrollspy').scrollSpy();
       });
     </script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
   </body>
 </html>

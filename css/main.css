@@ -18,3 +18,35 @@
 .section-contact h5 {
   margin-bottom: 30px;
 }
+
+.abcRioButtonContentWrapper {
+  height: 100%;
+  width: 100%;
+  background: teal;
+  color: white;
+}
+
+.signOut{
+  display:none;
+  background: red;
+  position: relative;
+    top: 6px;
+}
+
+.freebirdSolidBackground {
+  /* background-color: rgb(61, 143, 45); */
+  color: rgba(255, 255, 255, 1);
+}
+
+.freebirdFormviewerViewHeaderTitle {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 25px !important;
+  line-height: 135%;
+  max-width: 100%;
+  min-width: 0%;
+}
+
+.freebirdFormviewerViewFormCard{
+  width: 505px;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "travelagency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjaytarani0/Travel-Agency.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjaytarani0/Travel-Agency/issues"
+  },
+  "homepage": "https://github.com/sanjaytarani0/Travel-Agency#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "google-auth-library": "^2.0.2",
+    "mongoose": "^5.4.2",
+    "nodemon": "^1.18.9"
+  }
+}
